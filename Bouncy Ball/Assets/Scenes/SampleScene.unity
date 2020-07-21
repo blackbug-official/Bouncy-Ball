@@ -887,37 +887,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ac8c3b0b5328ad409fab830b6bb4e5c, type: 3}
---- !u!1 &1002284480 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3693306215151926278, guid: 4479dd1172d61314f808706c2a06acbe,
-    type: 3}
-  m_PrefabInstance: {fileID: 3693306214433416866}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1002284481 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3693306215151926280, guid: 4479dd1172d61314f808706c2a06acbe,
-    type: 3}
-  m_PrefabInstance: {fileID: 3693306214433416866}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002284480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae219ff3d816f341bb7ca0732eeba7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1002284486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002284480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5668571976947d44a077dbf4de0a94c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playermovement: {fileID: 1002284481}
 --- !u!1001 &1023625291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1365,11 +1334,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
-    - target: {fileID: 3693306215151926280, guid: 4479dd1172d61314f808706c2a06acbe,
-        type: 3}
-      propertyPath: forwardForce
-      value: 200
-      objectReference: {fileID: 0}
     - target: {fileID: 3693306215151926282, guid: 4479dd1172d61314f808706c2a06acbe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1424,21 +1388,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693306215151926283, guid: 4479dd1172d61314f808706c2a06acbe,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693306215151926283, guid: 4479dd1172d61314f808706c2a06acbe,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3693306215151926283, guid: 4479dd1172d61314f808706c2a06acbe,
-        type: 3}
-      propertyPath: m_Drag
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4479dd1172d61314f808706c2a06acbe, type: 3}
